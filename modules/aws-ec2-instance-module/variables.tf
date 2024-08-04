@@ -9,10 +9,10 @@ variable "instance_type" {
   type        = string
 }
 
-#variable "instance_tags" {
+variable "instance_tags" {
   description = "Additional tags for the instance"
   type = map(string)
-  #default = {
+  default = {
     instance_name = "test"
   }
 }
