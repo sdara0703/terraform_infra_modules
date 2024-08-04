@@ -12,5 +12,5 @@ variable "instance_type" {
 variable "instance_tags" {
   description = "Additional tags for the instance"
   type = map(string)
-  default = {}
+  #default = {}
 }
