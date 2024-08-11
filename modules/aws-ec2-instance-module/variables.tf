@@ -13,6 +13,6 @@ variable "instance_tags" {
   description = "Additional tags for the instance"
   type = map(string)
   default = {
-    instance_name = "test"
+    instance_name = "sdara0703_ec2_demo"
   }
 }
