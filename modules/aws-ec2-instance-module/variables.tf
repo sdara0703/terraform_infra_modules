@@ -9,10 +9,7 @@ variable "instance_type" {
   type        = string
 }
 
-variable "instance_tags" {
-  description = "Additional tags for the instance"
+variable "tags" {
   type = map(string)
-  default = {
-    instance_name = "sdara0703_ec2_demo"
-  }
+  description = "Additional tags for the instance"
 }
